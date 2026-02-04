@@ -1,2 +1,15 @@
-# Lab-Programs-1
-This repository contains basic programming lab programs written for academic practice.  It includes simple examples using loops, conditions, and functions to help beginners  understand core programming concepts.
+
+#include <stdio.h>
+
+int main() {
+    int i = 1;
+
+    while (i <= 10) {
+        if (i % 2 != 0) {
+            printf("%d\n", i);
+        }
+        i++;
+    }
+
+    return 0;
+}
